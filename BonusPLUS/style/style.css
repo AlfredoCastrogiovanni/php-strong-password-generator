@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+body {
+    background-color: #001632;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+form {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.alert {
+    position: relative;
+}
+
+.alert img {
+    width: 700px;
+}
+
+.psw {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Lemon', serif;
+}
